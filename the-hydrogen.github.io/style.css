@@ -6,16 +6,27 @@ body {
 }
 
 .painel {
-    padding: 10;
+  padding: 10px;
+  background-image: url('img/painel.png'); /* ou use o nome exato da sua imagem, como image.jpeg */
+  background-size: contain;       /* garante que as barras laterais apareçam */
+  background-position: center;    /* centraliza a imagem */
+  background-repeat: repeat;   /* impede repetição da imagem */
+  background-color: #000;         /* cor de fundo preta para combinar com as laterais escuras */
 }
 
+
+
 header {
-    background: black;
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    padding-top: 20px;
+  background-image: url('img/acervo.png');
+  background-size: cover;
+  background-position: center 88%;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 20px;
+  height: 370px;
 }
+
 
 /* main post */
 
@@ -26,16 +37,21 @@ header {
     background-color: #123b4a;
 }
 
-.main-post>h1 {
-    background-color: #262626;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 10 0;
-    font-weight: bold;
-    border-top: 1px solid rgba(255, 255, 255, 0.50);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+.main-post > h1 {
+  background-image: url('img/image.jpeg'); /* ou 'img/fundo.png', conforme o nome correto */
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: #262626; /* cor de fundo escura combinando com a imagem */
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: bold;
+  border-top: 1px solid rgba(255, 255, 255, 0.50);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.50);
 }
+
 
 .back {
     margin-top: 9;
