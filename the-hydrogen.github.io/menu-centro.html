@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Centralizado</title>
+  <style>
+    /* CSS para centralizar e estilizar conforme seu nav */
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .centro-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      background: transparent;
+    }
+  .centro-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;        /* alterar para flex */
+  flex-direction: column;  /* para coluna (vertical) */
+  align-items: center;     /* centraliza os itens horizontalmente */
+}
+
+.centro-menu ul li {
+  display: block;   /* para que cada li ocupe linha individual */
+  padding: 7px 9px;
+  background: #ffffff;
+  transition: all 0.3s;
+  margin-bottom: 10px;  /* espaço entre botões na vertical */
+  width: 150px;       /* opcional: largura fixa para uniformidade */
+  text-align: center; /* centraliza texto dentro do botão */
+}
+
+    .centro-menu ul li:hover {
+      background: #e624ed;
+    }
+    .centro-menu ul li a {
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none !important;
+      color: #000000 !important;
+      text-shadow: 1px 1px 0px black;
+      transition: all 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <div class="centro-menu">
+    <ul>
+
+      <li><a href="/the-hydrogen.github.io/acervo.html" target="_blank">CAULES + SPAMS</a></li>
+      <li><a href="/gifs.html">GIFs</a></li>
+      <li><a href="/imagens.html">Imagens</a></li>
+      <li><a href="/clipes.html">Clipes</a></li>
+      <li><a href="/sobre.html">Sobre </a></li>
+
+    </ul>
+  </div>
+</body>
+</html>

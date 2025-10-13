@@ -4,7 +4,7 @@
     /* display: inline-block; */
     width: 140px;
     height: 140px;
-    background-image: URL("img/btn.jpg");
+    background-image: URL("img/ico.jpg");
     ;
     background-position: -100 -1;
     border-radius: 50%;
@@ -44,41 +44,43 @@
     background: none !important;
 }
 
-.maconha {
-    background: url('img/maconha.jpg');
-    background-size: 250px;
-    background-position: -45 -55;
+.sexy {
+    background: url('img/sexy.jpg');
+    background-size: 150px;
+    background-position: 5 -40;
 }
 
-.pride {
-    background: url("img/btnpride.png");
-    background-position: -100 -1;
+.feliz {
+    background: url("img/feliz.jpg");
+     background-size: 130px;
+    background-position: 15 -15;
+       background-repeat: no-repeat;
 }
 
-.HYPERBRUH {
+.seduz {
     background-color: black;
-    background-image: url('img/HYPERBRUH.png');
-    background-size: 200px;
+    background-image: url('img/seduz.jpg');
+    background-size: 150px;
     background-position: -10 -20;
     background-repeat: no-repeat;
 }
 
-.sad {
-    background: url('img/sad.jpeg');
+.ico{
+    background: url('img/ico.png');
     background-size: 200px;
-    background-position: -20 -30;
+    background-position: 0 -30;
 }
 
-.entrevista {
-    background: url('img/entrevista.jpg');
-    background-position: -120 -10;
-    background-size: 350px;
+.hellen {
+    background: url('img/helen.jpg');
+    background-position: -10 -50;
+    background-size: 150px;
 }
 
-.risada {
-    background: url('img/risada.jpg');
-    background-size: 140px;
-    background-position: 10 -15;
+.medico {
+    background: url('img/medico.jpg');
+    background-size: 200px;
+    background-position: -40 -95;
 }
 
 .campeao {
@@ -87,39 +89,39 @@
 }
 
 .rumble {
-    background: url('img/Rumble.png');
+    background: url('img/7.jpg');
 }
 
 .twitch {
-    background: url('img/Twitch.png');
+    background: url('img/8.jpg');
 }
 
 .yasuo {
-    background: url('img/Yasuo.png');
+    background: url('img/9.jpg');
 }
 
 .graves {
-    background: url('img/Graves.png');
+    background: url('img/10.jpg');
 }
 
 .ivern {
-    background: url('img/Ivern.png');
+    background: url('img/11.jpg');
 }
 
 .vladimir {
-    background: url('img/Vladimir.png');
+    background: url('img/12.jpg');
 }
 
 .renekton {
-    background: url('img/Renekton.png');
+    background: url('img/13.jpg');
 }
 
 .kassadin {
-    background: url('img/Kassadin.png');
+    background: url('img/Kassadin.jpg');
 }
 
 .gangplank {
-    background: url('img/Gangplank.png');
+    background: url('img/Gangplank.jpg');
 }
 
 .urgot {
