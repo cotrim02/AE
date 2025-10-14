@@ -13,49 +13,35 @@ body {
 }
 
 
-
 .painel {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  padding: 20px;
-  background-color: #000; /* mantendo o fundo preto */
-    background-image: url('img/painel.png'); 
-      background-size: contain;   
-      
-
-
+  gap: 10px; /* espaçamento entre quadrados */
+  padding: 0px;
+    position: relative;
+  left: 15px; /* desloca 10px para a esquerda */
+  background-color: #00000000;
+  background-image: url('img/painel.png');
+  background-size: 430px;
 }
 
 .painel .back {
-  flex: 1 1 calc(33.333% - 15px);
-  max-width: calc(33.333% - 15px);
+  flex: 0 1 calc((100% / 3) - 20px);
+  max-width: calc((100% / 3) - 20px);
   box-sizing: border-box;
-  margin-bottom: 15px;
-  background-color: #fc85167a;
-  border-radius: 10px;
-  box-shadow: 0 0 4px 2px black;
-  height: auto; /* deixar altura automática */
-  width: auto; /* deixar largura automática */
-  padding: 10px;
+  background-color: #662bd3af;
+  border-radius: 20px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.678);
+  height: 0;
+padding-bottom: calc((100% / 3) + 20px);
+  padding-top: 10px;
   text-align: center;
+  position: relative;
 }
 
-.botao {
-  width: 130px;
-  height: 130px;
-  margin: 0 auto 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 0 0 0px 2px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 header {
   background: none; /* ou transparente */
@@ -77,12 +63,12 @@ header {
   background-image: url('img/image.jpeg'); /* ou 'img/fundo.png', conforme o nome correto */
   background-size: contain;
   background-position: center;
-  background-repeat: repeat;
-  background-color: #000000; /* cor de fundo escura combinando com a imagem */
+  background-repeat: no-repeat;
+  background-color: #311566af; /* cor de fundo escura combinando com a imagem */
   color: rgb(0, 0, 0);
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 5px 0;
   font-weight: bold;
   border-top: 1px solid rgba(255, 255, 255, 0.50);
   border-bottom: 1px solid rgba(255, 255, 255, 0.50);
@@ -113,11 +99,12 @@ header {
 }
 
 .back > .desc {
-  font-size: 12px;
-  color: black;
-  background: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  color: rgb(255, 2, 2);
+  background: rgba(255, 255, 255, 0);
   border-radius: 5px;
-  padding: 10px 5px;
+  position: relative;
+  top: -4px;
   font-weight: bold;
   display: block;
   margin: 0 auto;

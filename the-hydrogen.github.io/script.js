@@ -20,9 +20,6 @@ $(document).ready(function () {
     $("audio").not("#musica").before('<i class="far fa-play-circle"></i>');
     $(".gif").append('<i class="fas fa-play"></i>');
 
-    // Adicionar botão de download aos painéis (.back exceto .backgold)
-    $('.back').not('.backgold').append('<a><button style="margin: 0 auto; margin-top: 5px; width: 143px" class="baixar btn btn-block btn-default"><i class="fas fa-arrow-alt-circle-down"></i> Baixar</button></a>');
-
     // Controlar troca de ícones no fim do áudio
     $("audio").on('ended', function () {
         $(this).siblings("i").toggleClass("fa-pause-circle fa-play-circle");

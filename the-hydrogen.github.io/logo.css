@@ -2,26 +2,27 @@
     cursor: pointer;
     display: block;
     /* display: inline-block; */
-    width: 140px;
-    height: 140px;
+    width: 109px;
+    height: 109px;
     background-image: URL("img/ico.jpg");
     ;
     background-position: -100 -1;
-    border-radius: 50%;
+    border-radius: 10%;
     transition: all 1s;
-    /* margin: 15 10 20 10; */
-    margin: 10 auto;
+  position: relative;
+  left: 0px; /* desloca 10px para a esquerda */
+  margin: 10px auto;
     box-shadow: 0 0 0px 2px black;
 }
 
 .botao>i {
-    font-size: 130px;
+    font-size: 100px;
     position: relative;
-    left: 0;
+    left: -0.5;
     top: 5;
     color: black;
     opacity: 0.5;
-    text-shadow: 0 2px 0px rgba(253, 253, 253, 0.5), 2px 0 0px rgba(253, 253, 253, 0.5), -2px 0 0px rgba(253, 253, 253, 0.5), 0 -2px 0px rgba(253, 253, 253, 0.5);
+    text-shadow: 0 2px 0px rgba(0, 0, 0, 0.5), 2px 0 0px rgba(253, 253, 253, 0.5), -2px 0 0px rgba(253, 253, 253, 0.5), 0 -2px 0px rgba(253, 253, 253, 0.5);
 }
 
 .botao:active {
@@ -36,7 +37,7 @@
 
 .botaoD>i {
     color: gold;
-    text-shadow: 0 1px 0px rgba(253, 253, 253, 0.8), 1px 0 0px rgba(253, 253, 253, 0.8), -1px 0 0px rgba(253, 253, 253, 0.8), 0 -1px 0px rgba(253, 253, 253, 0.8);
+    text-shadow: 0 1px 0px rgba(0, 0, 0, 0.8), 1px 0 0px rgba(253, 253, 253, 0.8), -1px 0 0px rgba(253, 253, 253, 0.8), 0 -1px 0px rgba(253, 253, 253, 0.8);
 }
 
 .botaoD~.desc {
@@ -73,7 +74,7 @@
 
 .hellen {
     background: url('img/helen.jpg');
-    background-position: -10 -50;
+    background-position: -15 -70;
     background-size: 150px;
 }
 
@@ -83,25 +84,27 @@
     background-position: -40 -95;
 }
 
-.campeao {
-    background-size: 170px !important;
-    background-position: -10 -10 !important;
-}
+
 
 .rumble {
     background: url('img/7.jpg');
 }
 
-.twitch {
-    background: url('img/8.jpg');
+.surpreso {
+    background: url('img/surpreso.jpg');
+      background-position: -20 -10;
+    background-size: 150px;
+
 }
 
 .yasuo {
     background: url('img/9.jpg');
 }
 
-.graves {
-    background: url('img/10.jpg');
+.gordo {
+    background: url('img/gordo.jpg');
+       background-size: 150px;
+    background-position: -40 -5;
 }
 
 .ivern {
