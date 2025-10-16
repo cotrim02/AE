@@ -1,4 +1,19 @@
 $(document).ready(function () {
+
+
+
+
+
+const stickerGrid = $('<div class="sticker-grid"></div>');
+$('body').prepend(stickerGrid);
+
+for (let i = 1; i <= 259; i++) {
+  const src = `img/sticker/${i}.webp`;
+  const img = $('<img>', { src, alt: `Sticker ${i}`, class: 'gif-estatica' });
+  stickerGrid.append(img);
+}
+
+
     // Detectar basePath automaticamente para arquivos incluídos dinamicamente, ex: nav e footer
     function getBasePath() {
         var path = window.location.pathname;

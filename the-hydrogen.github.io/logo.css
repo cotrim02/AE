@@ -47,14 +47,14 @@
 
 .sexy {
     background: url('img/sexy.jpg');
-    background-size: 150px;
-    background-position: 5 -40;
+    background-size: 120px;
+    background-position: 5 -30;
 }
 
 .feliz {
     background: url("img/feliz.jpg");
      background-size: 130px;
-    background-position: 15 -15;
+    background-position: 0 -45;
        background-repeat: no-repeat;
 }
 
@@ -86,8 +86,12 @@
 
 
 
-.rumble {
-    background: url('img/7.jpg');
+.serio{
+    background: url('img/serio.jpg');
+
+          background-position: 10 -50;
+    background-size: 130px;
+
 }
 
 .surpreso {
@@ -97,8 +101,10 @@
 
 }
 
-.yasuo {
-    background: url('img/9.jpg');
+.caps {
+    background: url('img/caps.jpg');
+          background-position: -1 -10;
+    background-size: 100px;
 }
 
 .gordo {
@@ -107,20 +113,28 @@
     background-position: -40 -5;
 }
 
-.ivern {
-    background: url('img/11.jpg');
+.gm {
+    background: url('img/gm.jpg');
+           background-size: 180px;
+    background-position: -40 1;
 }
 
-.vladimir {
-    background: url('img/12.jpg');
+.nerd {
+    background: url('img/nerd.jpg');
+               background-size: 180px;
+    background-position: -70 ;         
 }
 
-.renekton {
-    background: url('img/13.jpg');
+.nojo {
+    background: url('img/nojo.jpg');
+               background-size: 180px;
+    background-position: -40 1;
 }
 
-.kassadin {
-    background: url('img/Kassadin.jpg');
+.psico {
+    background: url('img/psico.jpg');
+         background-size: 170px;  
+           background-position: -10 -50;
 }
 
 .gangplank {

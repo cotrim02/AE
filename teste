@@ -1,0 +1,3 @@
+git add .
+git commit -m "Mensagem descritiva do que foi alterado"
+git push origin main
