@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "sharp": "^0.34.4"
+  },
+  "name": "ae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "converter.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cotrim02/AE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cotrim02/AE/issues"
+  },
+  "homepage": "https://github.com/cotrim02/AE#readme"
+}
