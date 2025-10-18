@@ -7,7 +7,7 @@ $(document).ready(function () {
 const stickerGrid = $('<div class="sticker-grid"></div>');
 $('body').prepend(stickerGrid);
 
-for (let i = 1; i <= 259; i++) {
+for (let i = 1; i <= 112; i++) {
   const src = `img/sticker/${i}.webp`;
   const img = $('<img>', { src, alt: `Sticker ${i}`, class: 'gif-estatica' });
   stickerGrid.append(img);
